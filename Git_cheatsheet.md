@@ -18,6 +18,9 @@ $ git config --list
 
 ### Creating a Git repository
 ```python
+# making a directory in the computer
+mkdir -p udacity-git-course/new-git-project && cd $_
+
 # The init subcommand is short for "initialize"
 $ git init
 
