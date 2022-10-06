@@ -24,8 +24,8 @@ mkdir -p udacity-git-course/new-git-project && cd $_
 # The init subcommand is short for "initialize"
 $ git init
 
-# sets up Git with your email
-$ git config --global user.email "<your-email-address>"
+# state of our repository as Git sees it
+$ git status
 
 # makes sure that Git output is colored
 $ git config --global color.ui auto
