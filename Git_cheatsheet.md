@@ -56,8 +56,12 @@ $ git diff
 
 ## tagging, Branching and merging
 
-#add tags to specific commit
+#add tags to specific commit, (-a tells Git to create an annotated flag)
+$ git tag -a v1.0
 $ git tag
+
+#to tag a commit that occurred farther back in the repo's history
+$ git tag -a sha
 
 #allows multiple lines of development
 $ git branch
