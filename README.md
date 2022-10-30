@@ -10,3 +10,5 @@ Running the git init command sets up all of the necessary files and directories 
 Always run the git status command when returning to a project or repository
 
 With the git add command, we can add files from working directory to staging index and using git commmit, take files from staging index and save them to repository
+
+the .gitignore file is used to tell Git about the files that Git should not track. This file should be placed in the same directory that the .git directory is in.
