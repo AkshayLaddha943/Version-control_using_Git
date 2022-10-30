@@ -33,3 +33,5 @@ $ git log
 # Displays info about the given commit
 $ git show
 
+$ git log --oneline
+
