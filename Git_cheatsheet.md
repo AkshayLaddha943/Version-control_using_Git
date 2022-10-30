@@ -53,3 +53,17 @@ $ git commit -m
 $ git push
 
 $ git diff
+
+## tagging, Branching and merging
+
+#add tags to specific commit
+$ git tag
+
+#allows multiple lines of development
+$ git branch
+
+#switch between diff branches and tags
+$ git checkout
+
+#combines changes from different branches into one
+$ git merge
