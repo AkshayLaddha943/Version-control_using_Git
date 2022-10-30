@@ -27,6 +27,8 @@ $ git init
 # state of our repository as Git sees it
 $ git status
 
+### General Git commands
+
 # Displays info about the existing commits
 $ git log
 
@@ -34,4 +36,10 @@ $ git log
 $ git show
 
 $ git log --oneline
+
+# lists the files that were changed as well as the number of added/removed lines
+$ git log --stat
+
+#display the actual changes made to a file
+$ git log -p
 
