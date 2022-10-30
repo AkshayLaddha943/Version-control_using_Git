@@ -6,3 +6,7 @@ A version control system is a tool that manages different versions of a source c
 Within a git repository, there are three main areas include a working directory, staging index and the repository
 
 Running the git init command sets up all of the necessary files and directories that Git will use to keep track of everything. All of these files are stored in a directory called .git
+
+Always run the git status command when returning to a project or repository
+
+With the git add command, we can add files from working directory to staging index and using git commmit, take files from staging index and save them to repository
