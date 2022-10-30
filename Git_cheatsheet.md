@@ -27,11 +27,9 @@ $ git init
 # state of our repository as Git sees it
 $ git status
 
-# makes sure that Git output is colored
-$ git config --global color.ui auto
+# Displays info about the existing commits
+$ git log
 
-# displays the original state in a conflict
-$ git config --global merge.conflictstyle diff3
-
-$ git config --list
+# Displays info about the given commit
+$ git show
 
