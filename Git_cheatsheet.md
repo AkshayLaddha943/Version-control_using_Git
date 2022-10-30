@@ -16,7 +16,7 @@ $ git config --global merge.conflictstyle diff3
 $ git config --list
 
 
-### Creating a Git repository
+## Creating a Git repository
 ```python
 # making a directory in the computer
 mkdir -p udacity-git-course/new-git-project && cd $_
@@ -27,7 +27,7 @@ $ git init
 # state of our repository as Git sees it
 $ git status
 
-### General Git commands
+## General Git commands
 
 # Displays info about the existing commits
 $ git log
@@ -43,3 +43,13 @@ $ git log --stat
 #display the actual changes made to a file
 $ git log -p
 
+## Creating a new file inside Git bash
+$ touch filename.extension
+
+## Pushing changes in the branch
+$ git add .
+
+$ git commit -m
+$ git push
+
+$ git diff
