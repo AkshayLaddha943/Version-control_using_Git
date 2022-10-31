@@ -71,3 +71,13 @@ $ git checkout
 
 #combines changes from different branches into one
 $ git merge
+
+# creating a new branch
+$ git branch branch-name
+
+# To delete a given branch
+$ git branch -d sidebar
+
+#checkout of one branch
+$ git checkout branch-name (to checkout from)
+
