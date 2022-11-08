@@ -52,6 +52,7 @@ $ git add .
 $ git commit -m
 $ git push
 
+#git diff command will show you the changes that have not yet been committed
 $ git diff
 
 ## tagging, Branching and merging
@@ -81,3 +82,4 @@ $ git branch -d sidebar
 #checkout of one branch
 $ git checkout branch-name (to checkout from)
 
+$ git log --oneline --decorate --graph --all
