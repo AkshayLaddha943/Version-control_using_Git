@@ -83,3 +83,14 @@ $ git branch -d sidebar
 $ git checkout branch-name (to checkout from)
 
 $ git log --oneline --decorate --graph --all
+
+
+## Reverting or resetting changes
+
+#Alter the most recent commit
+git commit --amend
+
+#Reverses the given commit (SHA)
+git revert SHA
+'/
+#
